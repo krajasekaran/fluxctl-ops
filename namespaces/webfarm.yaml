@@ -1,0 +1,6 @@
+apirVersion: v1
+kind: Namespace
+metadata:
+  name: webfarm
+  labels:
+    name: webfarm
