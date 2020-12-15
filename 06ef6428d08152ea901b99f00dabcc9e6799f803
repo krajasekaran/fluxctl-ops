@@ -1,0 +1,1 @@
+{"jobID":"3c9769bc-f0b1-028e-4ab5-7495ec87f53f","spec":{"type":"policy","cause":{"Message":"","User":""},"spec":{"hellofarm:deployment/hello":{"add":{"automated":"true"},"remove":{}}}},"result":null}
