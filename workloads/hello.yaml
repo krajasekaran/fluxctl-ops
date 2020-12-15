@@ -3,11 +3,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: lasample
+  namespace: hello
   labels:
     app: hello
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
@@ -19,4 +17,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: linuxacademycontent/gitops:hellov1.2.2
+        image: linuxacademycontent/gitops:hellov1.0
